@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 80%;
+    margin: 30px auto;
+ }
+h1 {
+    text-align: center;
+}
+.task1 {
+    width: 100px;
+    height: 100px;
+    background: skyblue;
+    margin: 30px auto;
+}
+.task1-p{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid grey;
+}
+.task2 {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    background: url(img/img1.png) no-repeat;
+    background-size: cover;
+}
+.div300 {
+    width: 30px;
+    height: 30px;
+    background: palegoldenrod;
+    float: left;
+    margin: 5px;
+    transition: all 0.6s;
+}
+section:after, .task4-img:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.task4 {
+    width: 100%;
+    height: 250px;
+    background: lightcyan;
+    margin: auto;
+}
+.task4-img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.task{
+    position: relative;
+}
+.task5 {
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+    background: darkblue;
+    position: absolute;
+    top:50px;
+    left: 50%;
+    transform: translate(-50% 0);
+}
